@@ -1,0 +1,18 @@
+=======================
+/env
+/src 
+	app.py
+=======================
+
+#Primero es necesario ir a la ruta del proyecto 
+c:/documentos/proyecto1
+
+python3 -m venv env #Activar el entorno virtual, este crea una carpeta específica donde se guardan todas las librerías específicas
+
+env\Scripts\activate #Con esto se activa
+
+pip install python-dateutil #Ejemplo de como se instala una librería en consola
+
+pip freeze #Mirar todas las librerías activas dentro del entorno
+
+deactivate #Se desactiva
